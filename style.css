@@ -550,77 +550,6 @@ img {
    clear: both;
 }
 
-.grid-container,
-.grid-5,
-.mobile-grid-5,
-.tablet-grid-5,
-.grid-10,
-.mobile-grid-10,
-.tablet-grid-10,
-.grid-15,
-.mobile-grid-15,
-.tablet-grid-15,
-.grid-20,
-.mobile-grid-20,
-.tablet-grid-20,
-.grid-25,
-.mobile-grid-25,
-.tablet-grid-25,
-.grid-30,
-.mobile-grid-30,
-.tablet-grid-30,
-.grid-35,
-.mobile-grid-35,
-.tablet-grid-35,
-.grid-40,
-.mobile-grid-40,
-.tablet-grid-40,
-.grid-45,
-.mobile-grid-45,
-.tablet-grid-45,
-.grid-50,
-.mobile-grid-50,
-.tablet-grid-50,
-.grid-55,
-.mobile-grid-55,
-.tablet-grid-55,
-.grid-60,
-.mobile-grid-60,
-.tablet-grid-60,
-.grid-65,
-.mobile-grid-65,
-.tablet-grid-65,
-.grid-70,
-.mobile-grid-70,
-.tablet-grid-70,
-.grid-75,
-.mobile-grid-75,
-.tablet-grid-75,
-.grid-80,
-.mobile-grid-80,
-.tablet-grid-80,
-.grid-85,
-.mobile-grid-85,
-.tablet-grid-85,
-.grid-90,
-.mobile-grid-90,
-.tablet-grid-90,
-.grid-95,
-.mobile-grid-95,
-.tablet-grid-95,
-.grid-100,
-.mobile-grid-100,
-.tablet-grid-100,
-.grid-33,
-.mobile-grid-33,
-.tablet-grid-33,
-.grid-66,
-.mobile-grid-66,
-.tablet-grid-66,
-.clearfix {
-   *zoom: 1;
-}
-
 .grid-container {
    margin-left: auto;
    margin-right: auto;
@@ -700,82 +629,6 @@ img {
    box-sizing: border-box;
    padding-left: 10px;
    padding-right: 10px;
-   *padding-left: 0;
-   *padding-right: 0;
-}
-
-.grid-5 > *,
-.mobile-grid-5 > *,
-.tablet-grid-5 > *,
-.grid-10 > *,
-.mobile-grid-10 > *,
-.tablet-grid-10 > *,
-.grid-15 > *,
-.mobile-grid-15 > *,
-.tablet-grid-15 > *,
-.grid-20 > *,
-.mobile-grid-20 > *,
-.tablet-grid-20 > *,
-.grid-25 > *,
-.mobile-grid-25 > *,
-.tablet-grid-25 > *,
-.grid-30 > *,
-.mobile-grid-30 > *,
-.tablet-grid-30 > *,
-.grid-35 > *,
-.mobile-grid-35 > *,
-.tablet-grid-35 > *,
-.grid-40 > *,
-.mobile-grid-40 > *,
-.tablet-grid-40 > *,
-.grid-45 > *,
-.mobile-grid-45 > *,
-.tablet-grid-45 > *,
-.grid-50 > *,
-.mobile-grid-50 > *,
-.tablet-grid-50 > *,
-.grid-55 > *,
-.mobile-grid-55 > *,
-.tablet-grid-55 > *,
-.grid-60 > *,
-.mobile-grid-60 > *,
-.tablet-grid-60 > *,
-.grid-65 > *,
-.mobile-grid-65 > *,
-.tablet-grid-65 > *,
-.grid-70 > *,
-.mobile-grid-70 > *,
-.tablet-grid-70 > *,
-.grid-75 > *,
-.mobile-grid-75 > *,
-.tablet-grid-75 > *,
-.grid-80 > *,
-.mobile-grid-80 > *,
-.tablet-grid-80 > *,
-.grid-85 > *,
-.mobile-grid-85 > *,
-.tablet-grid-85 > *,
-.grid-90 > *,
-.mobile-grid-90 > *,
-.tablet-grid-90 > *,
-.grid-95 > *,
-.mobile-grid-95 > *,
-.tablet-grid-95 > *,
-.grid-100 > *,
-.mobile-grid-100 > *,
-.tablet-grid-100 > *,
-.grid-33 > *,
-.mobile-grid-33 > *,
-.tablet-grid-33 > *,
-.grid-66 > *,
-.mobile-grid-66 > *,
-.tablet-grid-66 > * {
-   *margin-left: expression(
-      (!this.className.match(/grid-[1-9]/) && this.currentStyle.display === "block" && this.currentStyle.width === "auto") && "10px"
-   );
-   *margin-right: expression(
-      (!this.className.match(/grid-[1-9]/) && this.currentStyle.display === "block" && this.currentStyle.width === "auto") && "10px"
-   );
 }
 
 .grid-parent {
@@ -836,15 +689,6 @@ img {
    .mobile-grid-5 {
       float: left;
       width: 5%;
-      *width: expression(
-         Math.floor(
-               0.05 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-5 {
@@ -857,39 +701,15 @@ img {
 
    .mobile-push-5 {
       left: 5%;
-      *left: expression(
-         Math.floor(
-               0.05 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-5 {
       left: -5%;
-      *left: expression(
-         Math.floor(
-               -0.05 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-10 {
       float: left;
       width: 10%;
-      *width: expression(
-         Math.floor(
-               0.1 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-10 {
@@ -902,39 +722,15 @@ img {
 
    .mobile-push-10 {
       left: 10%;
-      *left: expression(
-         Math.floor(
-               0.1 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-10 {
       left: -10%;
-      *left: expression(
-         Math.floor(
-               -0.1 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-15 {
       float: left;
       width: 15%;
-      *width: expression(
-         Math.floor(
-               0.15 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-15 {
@@ -947,39 +743,15 @@ img {
 
    .mobile-push-15 {
       left: 15%;
-      *left: expression(
-         Math.floor(
-               0.15 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-15 {
       left: -15%;
-      *left: expression(
-         Math.floor(
-               -0.15 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-20 {
       float: left;
       width: 20%;
-      *width: expression(
-         Math.floor(
-               0.2 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-20 {
@@ -992,39 +764,15 @@ img {
 
    .mobile-push-20 {
       left: 20%;
-      *left: expression(
-         Math.floor(
-               0.2 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-20 {
       left: -20%;
-      *left: expression(
-         Math.floor(
-               -0.2 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-25 {
       float: left;
       width: 25%;
-      *width: expression(
-         Math.floor(
-               0.25 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-25 {
@@ -1037,39 +785,15 @@ img {
 
    .mobile-push-25 {
       left: 25%;
-      *left: expression(
-         Math.floor(
-               0.25 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-25 {
       left: -25%;
-      *left: expression(
-         Math.floor(
-               -0.25 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-30 {
       float: left;
       width: 30%;
-      *width: expression(
-         Math.floor(
-               0.3 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-30 {
@@ -1082,39 +806,15 @@ img {
 
    .mobile-push-30 {
       left: 30%;
-      *left: expression(
-         Math.floor(
-               0.3 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-30 {
       left: -30%;
-      *left: expression(
-         Math.floor(
-               -0.3 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-35 {
       float: left;
       width: 35%;
-      *width: expression(
-         Math.floor(
-               0.35 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-35 {
@@ -1127,39 +827,15 @@ img {
 
    .mobile-push-35 {
       left: 35%;
-      *left: expression(
-         Math.floor(
-               0.35 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-35 {
       left: -35%;
-      *left: expression(
-         Math.floor(
-               -0.35 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-40 {
       float: left;
       width: 40%;
-      *width: expression(
-         Math.floor(
-               0.4 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-40 {
@@ -1172,39 +848,15 @@ img {
 
    .mobile-push-40 {
       left: 40%;
-      *left: expression(
-         Math.floor(
-               0.4 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-40 {
       left: -40%;
-      *left: expression(
-         Math.floor(
-               -0.4 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-45 {
       float: left;
       width: 45%;
-      *width: expression(
-         Math.floor(
-               0.45 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-45 {
@@ -1217,39 +869,15 @@ img {
 
    .mobile-push-45 {
       left: 45%;
-      *left: expression(
-         Math.floor(
-               0.45 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-45 {
       left: -45%;
-      *left: expression(
-         Math.floor(
-               -0.45 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-50 {
       float: left;
       width: 50%;
-      *width: expression(
-         Math.floor(
-               0.5 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-50 {
@@ -1262,39 +890,15 @@ img {
 
    .mobile-push-50 {
       left: 50%;
-      *left: expression(
-         Math.floor(
-               0.5 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-50 {
       left: -50%;
-      *left: expression(
-         Math.floor(
-               -0.5 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-55 {
       float: left;
       width: 55%;
-      *width: expression(
-         Math.floor(
-               0.55 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-55 {
@@ -1307,39 +911,15 @@ img {
 
    .mobile-push-55 {
       left: 55%;
-      *left: expression(
-         Math.floor(
-               0.55 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-55 {
       left: -55%;
-      *left: expression(
-         Math.floor(
-               -0.55 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-60 {
       float: left;
       width: 60%;
-      *width: expression(
-         Math.floor(
-               0.6 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-60 {
@@ -1352,39 +932,15 @@ img {
 
    .mobile-push-60 {
       left: 60%;
-      *left: expression(
-         Math.floor(
-               0.6 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-60 {
       left: -60%;
-      *left: expression(
-         Math.floor(
-               -0.6 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-65 {
       float: left;
       width: 65%;
-      *width: expression(
-         Math.floor(
-               0.65 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-65 {
@@ -1397,39 +953,15 @@ img {
 
    .mobile-push-65 {
       left: 65%;
-      *left: expression(
-         Math.floor(
-               0.65 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-65 {
       left: -65%;
-      *left: expression(
-         Math.floor(
-               -0.65 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-70 {
       float: left;
       width: 70%;
-      *width: expression(
-         Math.floor(
-               0.7 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-70 {
@@ -1442,39 +974,15 @@ img {
 
    .mobile-push-70 {
       left: 70%;
-      *left: expression(
-         Math.floor(
-               0.7 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-70 {
       left: -70%;
-      *left: expression(
-         Math.floor(
-               -0.7 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-75 {
       float: left;
       width: 75%;
-      *width: expression(
-         Math.floor(
-               0.75 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-75 {
@@ -1487,39 +995,15 @@ img {
 
    .mobile-push-75 {
       left: 75%;
-      *left: expression(
-         Math.floor(
-               0.75 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-75 {
       left: -75%;
-      *left: expression(
-         Math.floor(
-               -0.75 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-80 {
       float: left;
       width: 80%;
-      *width: expression(
-         Math.floor(
-               0.8 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-80 {
@@ -1532,39 +1016,15 @@ img {
 
    .mobile-push-80 {
       left: 80%;
-      *left: expression(
-         Math.floor(
-               0.8 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-80 {
       left: -80%;
-      *left: expression(
-         Math.floor(
-               -0.8 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-85 {
       float: left;
       width: 85%;
-      *width: expression(
-         Math.floor(
-               0.85 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-85 {
@@ -1577,39 +1037,15 @@ img {
 
    .mobile-push-85 {
       left: 85%;
-      *left: expression(
-         Math.floor(
-               0.85 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-85 {
       left: -85%;
-      *left: expression(
-         Math.floor(
-               -0.85 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-90 {
       float: left;
       width: 90%;
-      *width: expression(
-         Math.floor(
-               0.9 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-90 {
@@ -1622,39 +1058,15 @@ img {
 
    .mobile-push-90 {
       left: 90%;
-      *left: expression(
-         Math.floor(
-               0.9 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-90 {
       left: -90%;
-      *left: expression(
-         Math.floor(
-               -0.9 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-95 {
       float: left;
       width: 95%;
-      *width: expression(
-         Math.floor(
-               0.95 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-95 {
@@ -1667,39 +1079,15 @@ img {
 
    .mobile-push-95 {
       left: 95%;
-      *left: expression(
-         Math.floor(
-               0.95 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-95 {
       left: -95%;
-      *left: expression(
-         Math.floor(
-               -0.95 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-33 {
       float: left;
       width: 33.33333%;
-      *width: expression(
-         Math.floor(
-               0.33333 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-33 {
@@ -1712,39 +1100,15 @@ img {
 
    .mobile-push-33 {
       left: 33.33333%;
-      *left: expression(
-         Math.floor(
-               0.33333 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-33 {
       left: -33.33333%;
-      *left: expression(
-         Math.floor(
-               -0.33333 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-66 {
       float: left;
       width: 66.66667%;
-      *width: expression(
-         Math.floor(
-               0.66667 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-prefix-66 {
@@ -1757,25 +1121,10 @@ img {
 
    .mobile-push-66 {
       left: 66.66667%;
-      *left: expression(
-         Math.floor(
-               0.66667 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .mobile-pull-66 {
       left: -66.66667%;
-      *left: expression(
-         Math.floor(
-               -0.66667 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .mobile-grid-100 {
@@ -1837,15 +1186,6 @@ img {
    .tablet-grid-5 {
       float: left;
       width: 5%;
-      *width: expression(
-         Math.floor(
-               0.05 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-5 {
@@ -1858,39 +1198,15 @@ img {
 
    .tablet-push-5 {
       left: 5%;
-      *left: expression(
-         Math.floor(
-               0.05 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-5 {
       left: -5%;
-      *left: expression(
-         Math.floor(
-               -0.05 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-10 {
       float: left;
       width: 10%;
-      *width: expression(
-         Math.floor(
-               0.1 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-10 {
@@ -1903,39 +1219,15 @@ img {
 
    .tablet-push-10 {
       left: 10%;
-      *left: expression(
-         Math.floor(
-               0.1 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-10 {
       left: -10%;
-      *left: expression(
-         Math.floor(
-               -0.1 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-15 {
       float: left;
       width: 15%;
-      *width: expression(
-         Math.floor(
-               0.15 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-15 {
@@ -1948,39 +1240,15 @@ img {
 
    .tablet-push-15 {
       left: 15%;
-      *left: expression(
-         Math.floor(
-               0.15 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-15 {
       left: -15%;
-      *left: expression(
-         Math.floor(
-               -0.15 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-20 {
       float: left;
       width: 20%;
-      *width: expression(
-         Math.floor(
-               0.2 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-20 {
@@ -1993,39 +1261,15 @@ img {
 
    .tablet-push-20 {
       left: 20%;
-      *left: expression(
-         Math.floor(
-               0.2 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-20 {
       left: -20%;
-      *left: expression(
-         Math.floor(
-               -0.2 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-25 {
       float: left;
       width: 25%;
-      *width: expression(
-         Math.floor(
-               0.25 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-25 {
@@ -2038,39 +1282,15 @@ img {
 
    .tablet-push-25 {
       left: 25%;
-      *left: expression(
-         Math.floor(
-               0.25 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-25 {
       left: -25%;
-      *left: expression(
-         Math.floor(
-               -0.25 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-30 {
       float: left;
       width: 30%;
-      *width: expression(
-         Math.floor(
-               0.3 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-30 {
@@ -2083,39 +1303,15 @@ img {
 
    .tablet-push-30 {
       left: 30%;
-      *left: expression(
-         Math.floor(
-               0.3 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-30 {
       left: -30%;
-      *left: expression(
-         Math.floor(
-               -0.3 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-35 {
       float: left;
       width: 35%;
-      *width: expression(
-         Math.floor(
-               0.35 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-35 {
@@ -2128,39 +1324,15 @@ img {
 
    .tablet-push-35 {
       left: 35%;
-      *left: expression(
-         Math.floor(
-               0.35 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-35 {
       left: -35%;
-      *left: expression(
-         Math.floor(
-               -0.35 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-40 {
       float: left;
       width: 40%;
-      *width: expression(
-         Math.floor(
-               0.4 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-40 {
@@ -2173,39 +1345,15 @@ img {
 
    .tablet-push-40 {
       left: 40%;
-      *left: expression(
-         Math.floor(
-               0.4 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-40 {
       left: -40%;
-      *left: expression(
-         Math.floor(
-               -0.4 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-45 {
       float: left;
       width: 45%;
-      *width: expression(
-         Math.floor(
-               0.45 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-45 {
@@ -2218,39 +1366,15 @@ img {
 
    .tablet-push-45 {
       left: 45%;
-      *left: expression(
-         Math.floor(
-               0.45 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-45 {
       left: -45%;
-      *left: expression(
-         Math.floor(
-               -0.45 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-50 {
       float: left;
       width: 50%;
-      *width: expression(
-         Math.floor(
-               0.5 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-50 {
@@ -2263,39 +1387,15 @@ img {
 
    .tablet-push-50 {
       left: 50%;
-      *left: expression(
-         Math.floor(
-               0.5 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-50 {
       left: -50%;
-      *left: expression(
-         Math.floor(
-               -0.5 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-55 {
       float: left;
       width: 55%;
-      *width: expression(
-         Math.floor(
-               0.55 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-55 {
@@ -2308,39 +1408,15 @@ img {
 
    .tablet-push-55 {
       left: 55%;
-      *left: expression(
-         Math.floor(
-               0.55 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-55 {
       left: -55%;
-      *left: expression(
-         Math.floor(
-               -0.55 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-60 {
       float: left;
       width: 60%;
-      *width: expression(
-         Math.floor(
-               0.6 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-60 {
@@ -2353,39 +1429,15 @@ img {
 
    .tablet-push-60 {
       left: 60%;
-      *left: expression(
-         Math.floor(
-               0.6 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-60 {
       left: -60%;
-      *left: expression(
-         Math.floor(
-               -0.6 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-65 {
       float: left;
       width: 65%;
-      *width: expression(
-         Math.floor(
-               0.65 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-65 {
@@ -2398,39 +1450,15 @@ img {
 
    .tablet-push-65 {
       left: 65%;
-      *left: expression(
-         Math.floor(
-               0.65 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-65 {
       left: -65%;
-      *left: expression(
-         Math.floor(
-               -0.65 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-70 {
       float: left;
       width: 70%;
-      *width: expression(
-         Math.floor(
-               0.7 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-70 {
@@ -2443,39 +1471,15 @@ img {
 
    .tablet-push-70 {
       left: 70%;
-      *left: expression(
-         Math.floor(
-               0.7 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-70 {
       left: -70%;
-      *left: expression(
-         Math.floor(
-               -0.7 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-75 {
       float: left;
       width: 75%;
-      *width: expression(
-         Math.floor(
-               0.75 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-75 {
@@ -2488,39 +1492,15 @@ img {
 
    .tablet-push-75 {
       left: 75%;
-      *left: expression(
-         Math.floor(
-               0.75 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-75 {
       left: -75%;
-      *left: expression(
-         Math.floor(
-               -0.75 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-80 {
       float: left;
       width: 80%;
-      *width: expression(
-         Math.floor(
-               0.8 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-80 {
@@ -2533,39 +1513,15 @@ img {
 
    .tablet-push-80 {
       left: 80%;
-      *left: expression(
-         Math.floor(
-               0.8 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-80 {
       left: -80%;
-      *left: expression(
-         Math.floor(
-               -0.8 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-85 {
       float: left;
       width: 85%;
-      *width: expression(
-         Math.floor(
-               0.85 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-85 {
@@ -2578,39 +1534,15 @@ img {
 
    .tablet-push-85 {
       left: 85%;
-      *left: expression(
-         Math.floor(
-               0.85 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-85 {
       left: -85%;
-      *left: expression(
-         Math.floor(
-               -0.85 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-90 {
       float: left;
       width: 90%;
-      *width: expression(
-         Math.floor(
-               0.9 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-90 {
@@ -2623,39 +1555,15 @@ img {
 
    .tablet-push-90 {
       left: 90%;
-      *left: expression(
-         Math.floor(
-               0.9 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-90 {
       left: -90%;
-      *left: expression(
-         Math.floor(
-               -0.9 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-95 {
       float: left;
       width: 95%;
-      *width: expression(
-         Math.floor(
-               0.95 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-95 {
@@ -2668,39 +1576,15 @@ img {
 
    .tablet-push-95 {
       left: 95%;
-      *left: expression(
-         Math.floor(
-               0.95 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-95 {
       left: -95%;
-      *left: expression(
-         Math.floor(
-               -0.95 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-33 {
       float: left;
       width: 33.33333%;
-      *width: expression(
-         Math.floor(
-               0.33333 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-33 {
@@ -2713,39 +1597,15 @@ img {
 
    .tablet-push-33 {
       left: 33.33333%;
-      *left: expression(
-         Math.floor(
-               0.33333 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-33 {
       left: -33.33333%;
-      *left: expression(
-         Math.floor(
-               -0.33333 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-66 {
       float: left;
       width: 66.66667%;
-      *width: expression(
-         Math.floor(
-               0.66667 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-prefix-66 {
@@ -2758,25 +1618,10 @@ img {
 
    .tablet-push-66 {
       left: 66.66667%;
-      *left: expression(
-         Math.floor(
-               0.66667 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .tablet-pull-66 {
       left: -66.66667%;
-      *left: expression(
-         Math.floor(
-               -0.66667 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .tablet-grid-100 {
@@ -2838,15 +1683,6 @@ img {
    .grid-5 {
       float: left;
       width: 5%;
-      *width: expression(
-         Math.floor(
-               0.05 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-5 {
@@ -2859,39 +1695,15 @@ img {
 
    .push-5 {
       left: 5%;
-      *left: expression(
-         Math.floor(
-               0.05 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-5 {
       left: -5%;
-      *left: expression(
-         Math.floor(
-               -0.05 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-10 {
       float: left;
       width: 10%;
-      *width: expression(
-         Math.floor(
-               0.1 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-10 {
@@ -2904,39 +1716,15 @@ img {
 
    .push-10 {
       left: 10%;
-      *left: expression(
-         Math.floor(
-               0.1 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-10 {
       left: -10%;
-      *left: expression(
-         Math.floor(
-               -0.1 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-15 {
       float: left;
       width: 15%;
-      *width: expression(
-         Math.floor(
-               0.15 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-15 {
@@ -2949,39 +1737,15 @@ img {
 
    .push-15 {
       left: 15%;
-      *left: expression(
-         Math.floor(
-               0.15 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-15 {
       left: -15%;
-      *left: expression(
-         Math.floor(
-               -0.15 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-20 {
       float: left;
       width: 20%;
-      *width: expression(
-         Math.floor(
-               0.2 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-20 {
@@ -2994,39 +1758,15 @@ img {
 
    .push-20 {
       left: 20%;
-      *left: expression(
-         Math.floor(
-               0.2 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-20 {
       left: -20%;
-      *left: expression(
-         Math.floor(
-               -0.2 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-25 {
       float: left;
       width: 25%;
-      *width: expression(
-         Math.floor(
-               0.25 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-25 {
@@ -3039,39 +1779,15 @@ img {
 
    .push-25 {
       left: 25%;
-      *left: expression(
-         Math.floor(
-               0.25 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-25 {
       left: -25%;
-      *left: expression(
-         Math.floor(
-               -0.25 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-30 {
       float: left;
       width: 30%;
-      *width: expression(
-         Math.floor(
-               0.3 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-30 {
@@ -3084,39 +1800,15 @@ img {
 
    .push-30 {
       left: 30%;
-      *left: expression(
-         Math.floor(
-               0.3 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-30 {
       left: -30%;
-      *left: expression(
-         Math.floor(
-               -0.3 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-35 {
       float: left;
       width: 35%;
-      *width: expression(
-         Math.floor(
-               0.35 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-35 {
@@ -3129,39 +1821,15 @@ img {
 
    .push-35 {
       left: 35%;
-      *left: expression(
-         Math.floor(
-               0.35 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-35 {
       left: -35%;
-      *left: expression(
-         Math.floor(
-               -0.35 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-40 {
       float: left;
       width: 40%;
-      *width: expression(
-         Math.floor(
-               0.4 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-40 {
@@ -3174,39 +1842,15 @@ img {
 
    .push-40 {
       left: 40%;
-      *left: expression(
-         Math.floor(
-               0.4 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-40 {
       left: -40%;
-      *left: expression(
-         Math.floor(
-               -0.4 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-45 {
       float: left;
       width: 45%;
-      *width: expression(
-         Math.floor(
-               0.45 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-45 {
@@ -3219,39 +1863,15 @@ img {
 
    .push-45 {
       left: 45%;
-      *left: expression(
-         Math.floor(
-               0.45 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-45 {
       left: -45%;
-      *left: expression(
-         Math.floor(
-               -0.45 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-50 {
       float: left;
       width: 50%;
-      *width: expression(
-         Math.floor(
-               0.5 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-50 {
@@ -3264,39 +1884,15 @@ img {
 
    .push-50 {
       left: 50%;
-      *left: expression(
-         Math.floor(
-               0.5 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-50 {
       left: -50%;
-      *left: expression(
-         Math.floor(
-               -0.5 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-55 {
       float: left;
       width: 55%;
-      *width: expression(
-         Math.floor(
-               0.55 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-55 {
@@ -3309,39 +1905,15 @@ img {
 
    .push-55 {
       left: 55%;
-      *left: expression(
-         Math.floor(
-               0.55 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-55 {
       left: -55%;
-      *left: expression(
-         Math.floor(
-               -0.55 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-60 {
       float: left;
       width: 60%;
-      *width: expression(
-         Math.floor(
-               0.6 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-60 {
@@ -3354,39 +1926,15 @@ img {
 
    .push-60 {
       left: 60%;
-      *left: expression(
-         Math.floor(
-               0.6 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-60 {
       left: -60%;
-      *left: expression(
-         Math.floor(
-               -0.6 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-65 {
       float: left;
       width: 65%;
-      *width: expression(
-         Math.floor(
-               0.65 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-65 {
@@ -3399,39 +1947,15 @@ img {
 
    .push-65 {
       left: 65%;
-      *left: expression(
-         Math.floor(
-               0.65 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-65 {
       left: -65%;
-      *left: expression(
-         Math.floor(
-               -0.65 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-70 {
       float: left;
       width: 70%;
-      *width: expression(
-         Math.floor(
-               0.7 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-70 {
@@ -3444,39 +1968,15 @@ img {
 
    .push-70 {
       left: 70%;
-      *left: expression(
-         Math.floor(
-               0.7 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-70 {
       left: -70%;
-      *left: expression(
-         Math.floor(
-               -0.7 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-75 {
       float: left;
       width: 75%;
-      *width: expression(
-         Math.floor(
-               0.75 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-75 {
@@ -3489,39 +1989,15 @@ img {
 
    .push-75 {
       left: 75%;
-      *left: expression(
-         Math.floor(
-               0.75 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-75 {
       left: -75%;
-      *left: expression(
-         Math.floor(
-               -0.75 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-80 {
       float: left;
       width: 80%;
-      *width: expression(
-         Math.floor(
-               0.8 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-80 {
@@ -3534,39 +2010,15 @@ img {
 
    .push-80 {
       left: 80%;
-      *left: expression(
-         Math.floor(
-               0.8 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-80 {
       left: -80%;
-      *left: expression(
-         Math.floor(
-               -0.8 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-85 {
       float: left;
       width: 85%;
-      *width: expression(
-         Math.floor(
-               0.85 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-85 {
@@ -3579,39 +2031,15 @@ img {
 
    .push-85 {
       left: 85%;
-      *left: expression(
-         Math.floor(
-               0.85 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-85 {
       left: -85%;
-      *left: expression(
-         Math.floor(
-               -0.85 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-90 {
       float: left;
       width: 90%;
-      *width: expression(
-         Math.floor(
-               0.9 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-90 {
@@ -3624,39 +2052,15 @@ img {
 
    .push-90 {
       left: 90%;
-      *left: expression(
-         Math.floor(
-               0.9 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-90 {
       left: -90%;
-      *left: expression(
-         Math.floor(
-               -0.9 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-95 {
       float: left;
       width: 95%;
-      *width: expression(
-         Math.floor(
-               0.95 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-95 {
@@ -3669,39 +2073,15 @@ img {
 
    .push-95 {
       left: 95%;
-      *left: expression(
-         Math.floor(
-               0.95 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-95 {
       left: -95%;
-      *left: expression(
-         Math.floor(
-               -0.95 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-33 {
       float: left;
       width: 33.33333%;
-      *width: expression(
-         Math.floor(
-               0.33333 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-33 {
@@ -3714,39 +2094,15 @@ img {
 
    .push-33 {
       left: 33.33333%;
-      *left: expression(
-         Math.floor(
-               0.33333 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-33 {
       left: -33.33333%;
-      *left: expression(
-         Math.floor(
-               -0.33333 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-66 {
       float: left;
       width: 66.66667%;
-      *width: expression(
-         Math.floor(
-               0.66667 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .prefix-66 {
@@ -4160,7 +2516,7 @@ img {
 }
 
 .como-comprar {
-   color: #df2663;
+   color: #0ca5ad;
 }
 
 .slick-dots li button:before {
@@ -4370,12 +2726,12 @@ textarea {
    }
 }
 
-.pagination {
+.pods-pagination-paginate {
    text-align: center;
    margin-bottom: 2rem;
 }
 
-.pagination .page-numbers {
+.pods-pagination-paginate .page-numbers {
    display: inline-block;
    padding: 0.75rem;
    min-width: 40px;
@@ -4385,8 +2741,8 @@ textarea {
    color: #a7a7a7;
 }
 
-.pagination .page-numbers.current,
-.pagination .page-numbers:hover {
+.pods-pagination-paginate .page-numbers.current,
+.pods-pagination-paginate .page-numbers:hover {
    background-color: #12424d;
    border-color: #12424d;
    color: #fff;
@@ -4491,7 +2847,7 @@ textarea {
 }
 
 .header .header-cat ul li.como-comprar-um-yticon {
-   color: #df2663;
+   color: #0ca5ad;
 }
 
 .header .header-cat ul li.educacao-financeira {
@@ -4511,7 +2867,7 @@ textarea {
 }
 
 .header .header-cat ul li:hover.como-comprar-um-yticon a {
-   border-bottom: 2px solid #df2663;
+   border-bottom: 2px solid #0ca5ad;
 }
 
 .header .header-cat ul li:hover.educacao-financeira a {
@@ -4655,7 +3011,7 @@ nav .hover a {
 }
 
 .main .box-post {
-   margin-bottom: 50px;
+   margin-bottom: 30px;
 }
 
 .main .box-post .image-post {
@@ -4681,7 +3037,7 @@ nav .hover a {
 }
 
 .main .box-post .image-post .chamada-post.como-comprar-um-yticon {
-   border-bottom: 6px solid #df2663;
+   border-bottom: 6px solid #0ca5ad;
 }
 
 .main .box-post .image-post .chamada-post.educacao-financeira {
@@ -4720,7 +3076,7 @@ nav .hover a {
 }
 
 .main .box-post .data.como-comprar-um-yticon {
-   color: #df2663;
+   color: #0ca5ad;
 }
 
 .main .box-post .data.educacao-financeira {
@@ -4759,7 +3115,7 @@ nav .hover a {
 }
 
 .main .box-icon-cat.como-comprar-um-yticon {
-   border-top: 58px solid #df2663;
+   border-top: 58px solid #0ca5ad;
 }
 
 .main .box-icon-cat.educacao-financeira {
@@ -4851,7 +3207,7 @@ nav .hover a {
 }
 
 .main .list-post .box-post .image-post.como-comprar-um-yticon {
-   border-bottom: 6px solid #df2663;
+   border-bottom: 6px solid #0ca5ad;
 }
 
 .main .list-post .box-post .image-post.educacao-financeira {
@@ -4893,7 +3249,7 @@ nav .hover a {
 }
 
 .main .list-post .box-post .btn-more:hover.como-comprar-um-yticon {
-   background: #df2663;
+   background: #0ca5ad;
 }
 
 .main .list-post .box-post .btn-more:hover.educacao-financeira {
@@ -4986,11 +3342,11 @@ nav .hover a {
 }
 
 .sidebar .box-more .list-more.como-comprar-um-yticon a {
-   color: #df2663;
+   color: #0ca5ad;
 }
 
 .sidebar .box-more .list-more.como-comprar-um-yticon .more {
-   background: #df2663;
+   background: #0ca5ad;
 }
 
 .sidebar .box-more .list-more.educacao-financeira a {
@@ -5879,4 +4235,11 @@ nav .hover a {
    .footer .Enderecos .end {
       margin-bottom: 15px;
    }
+}
+
+.last-post {
+   margin-top: 2em;
+}
+
+.page-numbers {
 }

@@ -45,31 +45,17 @@
       <!--Posts mais lidos-->
       <div class="box-more">
          <h3>Os mais <strong>lidos</strong></h3>
+         <?php
+            while (have_posts()) : the_post();
 
-         <div class="list-more">
-            Cromoterapia: conheça o poder das cores na decoração
-            <a href="cromoterapia/index.html" class="more"><span> + </span> Ir para post</a>
-         </div>
-
-         <div class="list-more">
-            Cromoterapia: conheça o poder das cores na decoração
-            <a href="cromoterapia/index.html" class="more"><span> + </span> Ir para post</a>
-         </div>
-
-         <div class="list-more">
-            Cromoterapia: conheça o poder das cores na decoração
-            <a href="cromoterapia/index.html" class="more"><span> + </span> Ir para post</a>
-         </div>
-
-         <div class="list-more">
-            Cromoterapia: conheça o poder das cores na decoração
-            <a href="cromoterapia/index.html" class="more"><span> + </span> Ir para post</a>
-         </div>
-
-         <div class="list-more">
-            Cromoterapia: conheça o poder das cores na decoração
-            <a href="cromoterapia/index.html" class="more"><span> + </span> Ir para post</a>
-         </div>
+            $pod = pods('post');
+            $pod->find(array('limit' => 5));
+            while ($pod->fetch()) {
+               echo '<div class="list-more">' . $pod->display('titulo_post_principal');
+                  echo '<a href="' . get_permalink(get_the_ID()) . '" class="more"><span> + </span> Ir para post</a>';
+               echo '</div>';
+            } endwhile;
+         ?>
       </div>
    </div>
    <div class="tablet-grid-50">
