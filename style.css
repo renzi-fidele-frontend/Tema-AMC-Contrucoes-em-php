@@ -208,7 +208,7 @@
 }
 
 .cf {
-   *zoom: 1;
+   zoom: 1;
 }
 
 .fullHeight {
@@ -301,7 +301,7 @@ img {
 }
 
 .clearfix {
-   *zoom: 1;
+   zoom: 1;
 }
 
 .clearfix:before,
@@ -2115,25 +2115,10 @@ img {
 
    .push-66 {
       left: 66.66667%;
-      *left: expression(
-         Math.floor(
-               0.66667 *
-                  (
-                     this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight)
-                  )
-            ) + "px"
-      );
    }
 
    .pull-66 {
       left: -66.66667%;
-      *left: expression(
-         Math.floor(
-               -0.66667 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) -
-                        parseFloat(this.parentNode.currentStyle.paddingRight))
-            ) + "px"
-      );
    }
 
    .grid-100 {
