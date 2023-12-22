@@ -54,9 +54,7 @@
 						//  Conteudo do post
 						echo '<div class="content-post">' . $pod->display('conteudo_do_post') . '</div>';
 					}
-				} endwhile;
-				
-				
+				} endwhile;	
 				?>
             </div>
             <div class="grid-25 prefix-5">

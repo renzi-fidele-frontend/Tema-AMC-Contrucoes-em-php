@@ -6,7 +6,7 @@ function add_css()
    wp_register_style('first', get_template_directory_uri() . '/build/css/libs.min.css', array(),'1','all');
    wp_enqueue_style( 'first');
 
-   wp_register_style('lib', get_template_directory_uri() . '/build/css/style.css', array(),'1','all');
+   wp_register_style('lib', get_template_directory_uri() . '/style.css', array(),'1','all');
    wp_enqueue_style( 'lib');
 
 }

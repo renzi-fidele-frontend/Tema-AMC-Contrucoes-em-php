@@ -45,7 +45,7 @@
 
       <meta name="robots" content="max-image-preview:large" />
 
-      <title>Blog AMC - Blog AMC | Dicas sobre o mercado imobiliário, decoração e muito mais!</title>
+      <title>Blog AMC | Dicas sobre o mercado imobiliário, decoração e muito mais!</title>
       <meta name="description" content="Blog AMC | Dicas sobre o mercado imobiliário, decoração e muito mais!" />
       <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
       <link rel="canonical" href="index.html" />
