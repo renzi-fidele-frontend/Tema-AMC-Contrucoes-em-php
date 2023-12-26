@@ -2848,7 +2848,7 @@ textarea {
 }
 
 .header .header-cat ul li.meu-ape {
-   color: #eb9f0e;
+   color: #0ca5ad;
 }
 
 .header .header-cat ul li:hover.como-comprar-um-yticon a {
@@ -2868,7 +2868,7 @@ textarea {
 }
 
 .header .header-cat ul li:hover.meu-ape a {
-   border-bottom: 2px solid #eb9f0e;
+   border-bottom: 2px solid #0ca5ad;
 }
 
 .menu-toggle {
@@ -3038,7 +3038,7 @@ nav .hover a {
 }
 
 .main .box-post .image-post .chamada-post.meu-ape {
-   border-bottom: 6px solid #eb9f0e;
+   border-bottom: 6px solid #0ca5ad;
 }
 
 .main .box-post .image-post .chamada-post h2 {
@@ -3077,7 +3077,7 @@ nav .hover a {
 }
 
 .main .box-post .data.meu-ape {
-   color: #eb9f0e;
+   color: #0ca5ad;
 }
 
 .main .box-post.pg-404 i {
@@ -3116,7 +3116,7 @@ nav .hover a {
 }
 
 .main .box-icon-cat.meu-ape {
-   border-top: 58px solid #eb9f0e;
+   border-top: 58px solid #0ca5ad;
 }
 
 .main .box-icon-cat .icon-como-comprar-um-yticon {
@@ -3208,7 +3208,7 @@ nav .hover a {
 }
 
 .main .list-post .box-post .image-post.meu-ape {
-   border-bottom: 6px solid #eb9f0e;
+   border-bottom: 6px solid #0ca5ad;
 }
 
 @media (max-width: 767px) {
@@ -3250,7 +3250,7 @@ nav .hover a {
 }
 
 .main .list-post .box-post .btn-more:hover.meu-ape {
-   background: #eb9f0e;
+   background: #0ca5ad;
 }
 
 .main .list-post .chamada-post {
@@ -3359,15 +3359,15 @@ nav .hover a {
 }
 
 .sidebar .box-more .list-more.meu-ape {
-   color: #eb9f0e;
+   color: #0ca5ad;
 }
 
 .sidebar .box-more .list-more.meu-ape a {
-   color: #eb9f0e;
+   color: #0ca5ad;
 }
 
 .sidebar .box-more .list-more.meu-ape .more {
-   background: #eb9f0e;
+   background: #0ca5ad;
 }
 
 .sidebar .box-more .list-more p {
@@ -4226,5 +4226,10 @@ nav .hover a {
    margin-top: 2em;
 }
 
-.page-numbers {
+.banners {
+   margin-top: 2em;
+}
+
+.pods-pagination-paginate {
+   margin-bottom: 1.5em;
 }
