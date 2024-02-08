@@ -3,7 +3,7 @@
             <div class="grid-container">
                <div class="grid-25 tablet-grid-25 tablet-suffix-5">
                   <figure class="LogoFooter">
-                     <a href="https://construtoradesucesso.com.br" title="AMC Construções">
+                     <a href="https://amc.eng.br" title="AMC Construções">
                         <img
                            src="<?php bloginfo('template_directory');?>/build/img/AMC-LOGO-223w.png"
                            alt="AMC Construções, construtora, lançamentos em Londrina, PR"

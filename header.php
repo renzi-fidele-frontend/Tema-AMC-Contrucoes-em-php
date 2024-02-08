@@ -54,7 +54,7 @@
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Blog AMC - Blog AMC | Dicas sobre o mercado imobiliário, decoração e muito mais!" />
       <meta property="og:description" content="Blog AMC | Dicas sobre o mercado imobiliário, decoração e muito mais!" />
-      <meta property="og:url" content="https://amc.eng.br/blog" />
+      <meta property="og:url" content="https://blog.amc.eng.br" />
       <meta property="og:site_name" content="Blog AMC" />
       <style type="text/css">
          img.wp-smiley,
@@ -1072,7 +1072,7 @@
                <div class="grid-15 tablet-grid-20 mobile-grid-45">
                 
                   <h1>
-                     <a href="index.html" title="">
+                     <a href="/" title="Inicío">
                         <img src="<?php bloginfo('template_directory');?>/build/img/AMC-LOGO-223w.png" alt="AMC Blog" />
                      </a>
                   </h1>
@@ -1083,11 +1083,11 @@
                <div class="grid-45 prefix-20 tablet-grid-70 mobile-grid-40">
                   <nav class="info-header hide-on-tablet hide-on-mobile">
                      <ul>
-                        <li><a href="sobre-o-blog/index.html" title="Sobre o Blog">Sobre o Blog</a></li>
-                        <li><a href="https://www.construtoradesucesso.com.br/faleconosco.html" title="Contato" target="_blank">Contato</a></li>
+                        <li><a href="/institucional/amc.html" title="Quem somos">Quem somos</a></li>
+                        <li><a href="https://www.amc.eng.br/faleconosco.html" title="Contato" target="_blank">Contato</a></li>
                         <li class="line"><span> | </span></li>
                         <li>
-                           <a href="https://www.construtoradesucesso.com.br/empreendimentos.html" title="Imóveis" target="_blank"
+                           <a href="https://www.amc.eng.br/empreendimentos.html" title="Imóveis" target="_blank"
                               ><i class="icon-imoveis"></i>Imóveis</a
                            >
                         </li>
@@ -1106,20 +1106,10 @@
                      <nav>
                         <div role="navigation" class="hidden hover">
                            <ul id="menu-header">
-                              <li class="como-comprar-um-yticon">
-                                 <a href="category/como-comprar-um-yticon/index.html" title="Como comprar um Yticon">Como comprar um Yticon</a>
-                              </li>
-                              <li class="educacao-financeira">
-                                 <a href="category/educacao-financeira/index.html" title="Educação Financeira">Educação Financeira</a>
-                              </li>
-                              <li class="pcva"><a href="category/pcva/index.html" title="PCVA">PCVA</a></li>
-                              <li class="morar-sozinho"><a href="category/morar-sozinho/index.html" title="morar sozinho">morar sozinho</a></li>
-                              <li class="meu-ape"><a href="category/meu-ape/index.html" title="Meu ApÊ">Meu ApÊ</a></li>
-
-                              <li><a href="sobre-o-blog/index.html" title="Sobre o Blog">Sobre o Blog</a></li>
-                              <li><a href="#" title="Contato">Contato</a></li>
+                              <li><a target="_blank" href="/institucional/amc.html"  title="Quem somos">Quem somos</a></li>
+                              <li><a target="_blank" href="https://www.amc.eng.br/faleconosco.html" title="Contato">Contato</a></li>
                               <li>
-                                 <a href="#" title="Imóveis"><i class="icon-imoveis"></i>Imóveis</a>
+                                 <a target="_blank" href="https://www.amc.eng.br/empreendimentos.html" title="Imóveis"><i class="icon-imoveis"></i>Imóveis</a>
                               </li>
                               <li>
                                  <a href="javascript:;" title="Busca" class="abre-busca"><i class="icon-lupa"></i>Busca</a>

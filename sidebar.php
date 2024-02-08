@@ -4,19 +4,19 @@
          <!--Sliders contendo o banner-->
          <ul class="slide-banners">
             <li>
-               <a href="https://construtoradesucesso.com.br/empreendimentos/detalhes/solar-de-hamburgo.html" title="Solar de Hamburgo">
+               <a target="_blank" href="https://amc.eng.br/empreendimentos/detalhes/solar-de-hamburgo.html" title="Solar de Hamburgo">
                   <img src="<?php bloginfo('template_directory');?>/build/img/banners/banner1.jpg" alt="AMC Blog" />
                </a>
             </li>
 
             <li>
-               <a href="https://construtoradesucesso.com.br/empreendimentos/detalhes/ilha-di-capri.html" title="Ilha di Capri">
+               <a target="_blank" href="https://amc.eng.br/empreendimentos/detalhes/ilha-di-capri.html" title="Ilha di Capri">
                   <img src="<?php bloginfo('template_directory');?>/build/img/banners/banner2.jpg" alt="AMC Blog" />
                </a>
             </li>
 
             <li>
-               <a href="https://construtoradesucesso.com.br/empreendimentos/detalhes/solar-dos-alamos.html" title="Solar dos Álamos">
+               <a target="_blank" href="https://amc.eng.br/empreendimentos/detalhes/solar-dos-alamos.html" title="Solar dos Álamos">
                   <img src="<?php bloginfo('template_directory');?>/build/img/banners/banner3.jpg" alt="AMC Blog" />
                </a>
             </li>
@@ -34,7 +34,7 @@
             $pod->find(array('limit' => 5));
             while ($pod->fetch()) {
                echo '<div class="list-more">' . $pod->display('titulo_post_principal');
-                  echo '<a href="' . get_permalink(get_the_ID()) . '" class="more"><span> + </span> Ir para post</a>';
+                  echo '<a href="' . $pod->display('url') . '" class="more"><span> + </span> Ir para post</a>';
                echo '</div>';
             } endwhile;
          ?>
@@ -42,7 +42,7 @@
    </div>
    <div class="tablet-grid-50">
       <div class="corretor cf">
-         <a href="" title="Chat Online" data-seo="chat-topo" target="blank">
+         <a href="https://www.amc.eng.br/faleconosco.html" title="Chat Online" data-seo="chat-topo" target="blank">
             <div class="icone">
                <i class="icon-chat2"></i>
             </div>
@@ -55,7 +55,7 @@
    <div class="tablet-grid-50">
       <div class="corretor cf">
          <a
-            href="https://www.construtoradesucesso.com.br/ligamos-para-voce"
+            href="https://www.amc.eng.br/ligamos-para-voce.html"
             title="Ligamos para você"
             data-seo="chat-topo"
             target="_blank"

@@ -2982,7 +2982,7 @@ nav .hover a {
    z-index: 9999;
    height: 100vh;
    display: block;
-   background-color: rgba(34, 30, 111, 0.9);
+   background-color: rgba(30, 92, 111, 0.9);
    position: absolute;
    right: 0;
    width: 100%;
@@ -4226,10 +4226,6 @@ nav .hover a {
    margin-top: 2em;
 }
 
-.banners {
-   margin-top: 2em;
-}
-
-.pods-pagination-paginate {
-   margin-bottom: 1.5em;
+.main {
+   padding-block: 2em;
 }
