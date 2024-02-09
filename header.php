@@ -1061,8 +1061,8 @@
             <p>
                Utilizamos cookies para melhorar o desempenho e a sua experiência como usuário do nosso site. <br />
                Ao utilizar este site, você concorda com a nossa
-               <a href="https://www.yticon.com.br/institucional/politica-de-cookies">Política de Cookies</a> e
-               <a href="https://www.yticon.com.br/institucional/politica-de-privacidade">Privacidade</a>.
+               <a href="https://www.amc.eng.br/institucional/politica-de-cookies.html">Política de Cookies</a> e
+               <a href="https://www.amc.eng.br/institucional/politica-de-privacidade.html">Privacidade</a>.
             </p>
             <button id="close" class="btn transition">OK ENTENDI!</button>
          </div>
@@ -1072,7 +1072,7 @@
                <div class="grid-15 tablet-grid-20 mobile-grid-45">
                 
                   <h1>
-                     <a href="/" title="Inicío">
+                     <a href="https://amc.eng.br" title="Inicío">
                         <img src="<?php bloginfo('template_directory');?>/build/img/AMC-LOGO-223w.png" alt="AMC Blog" />
                      </a>
                   </h1>
@@ -1083,17 +1083,17 @@
                <div class="grid-45 prefix-20 tablet-grid-70 mobile-grid-40">
                   <nav class="info-header hide-on-tablet hide-on-mobile">
                      <ul>
-                        <li><a href="/institucional/amc.html" title="Quem somos">Quem somos</a></li>
-                        <li><a href="https://www.amc.eng.br/faleconosco.html" title="Contato" target="_blank">Contato</a></li>
+                        <li><a href="https://amc.eng.br/institucional/amc.html" title="Quem somos">Quem somos</a></li>
+                        <li><a href="https://amc.eng.br/faleconosco.html" title="Contato" target="_blank">Contato</a></li>
                         <li class="line"><span> | </span></li>
                         <li>
-                           <a href="https://www.amc.eng.br/empreendimentos.html" title="Imóveis" target="_blank"
+                           <a href="https://amc.eng.br/empreendimentos.html" title="Imóveis" target="_blank"
                               ><i class="icon-imoveis"></i>Imóveis</a
                            >
                         </li>
-                        <li>
+                        <!--<li>
                            <a href="javascript:;" title="Busca" class="abre-busca"><i class="icon-lupa"></i>Busca</a>
-                        </li>
+                        </li>-->
                      </ul>
                   </nav>
                   <div class="menu-section hide-on-desktop">
@@ -1111,9 +1111,11 @@
                               <li>
                                  <a target="_blank" href="https://www.amc.eng.br/empreendimentos.html" title="Imóveis"><i class="icon-imoveis"></i>Imóveis</a>
                               </li>
+                              <!--
                               <li>
                                  <a href="javascript:;" title="Busca" class="abre-busca"><i class="icon-lupa"></i>Busca</a>
                               </li>
+                              -->
                            </ul>
                         </div>
                      </nav>
