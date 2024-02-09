@@ -158,7 +158,7 @@
                         <div class="end">
                            <h5>Central de Vendas</h5>
 
-                           <a href="tel:48991253213" title="Ligar para Central" target="_blank" data-seo="tel-central"> 48 99125-3213 </a>
+                           <a href="tel:5547991520164" title="Ligar para Central" target="_blank" data-seo="tel-central"> 47 99152-0164 </a>
                         </div>
 
                         <br />
@@ -169,12 +169,12 @@
                            </h5>
 
                            <a
-                              href="tel:48991253213"
+                              href="tel:5547991520164"
                               title="Ligar para Assistência Técnica e Administração"
                               target="_blank"
                               data-seo="tel-administracao"
                            >
-                              48 99125-3213
+                              47 99152-0164
                            </a>
                         </div>
                      </li>
@@ -187,8 +187,8 @@
                               <p>
                                  Av. Tiradentes, 501<br />
                                  Torre 1 (14º Andar - Sala 1401)<br />
-                                 - Jardim Shangri-Lá, Londrina/PR<br />
-                                 86070-545<br />
+                                 Jardim Shangri-Lá, Londrina/PR<br />
+                                 CEP 86070-545<br />
                                  (43) 3376-3201
                               </p>
                            </div>
@@ -226,14 +226,26 @@
 
                      <li>
                         <div class="end">
-                           <h5>Guaramirim/SC</h5>
+                           <h5>Tijucas/SC</h5>
 
                            <div class="txt">
                               <p>
-                                 R. Herminio Stringari, 1287 <br />
-                                 Corticeira, Guaramirim/SC <br />
-
-                                 CEP 88270-000 <br />
+                                 Loja de Vendas Tijucas<br />
+                                 (Av José Manoel Reis<br />05 Bairro Areias)<br /><br />
+                                 Platão - Ilha di Capri<br />
+                                 (Rua 13 de Maio<br />
+                                 2746 - Bairro Areias)
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="end">
+                           <h5>Itapema/SC</h5>
+                           <div class="txt">
+                              <p>
+                                 Platão de vendas <br />
+                                 Rua 700, N° 812<br />Bairro Casa Branca
                               </p>
                            </div>
                         </div>
