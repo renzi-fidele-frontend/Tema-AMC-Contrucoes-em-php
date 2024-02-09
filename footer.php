@@ -12,10 +12,10 @@
                   </figure>
 
                   <div class="link">
-                     <a href="/institucional/amc.html" target="_blank"><i class="icon-angle-double-right"></i>Quem somos</a>
+                     <a href="https://amc.eng.br/institucional/amc.html" target="_blank"><i class="icon-angle-double-right"></i>Quem somos</a>
                   </div>
                   <div class="link">
-                     <a href="/instucional/missao-visao-valores.html" target="_blank"><i class="icon-angle-double-right"></i>Missão e valores</a>
+                     <a href="https://amc.eng.br/instucional/missao-visao-valores.html" target="_blank"><i class="icon-angle-double-right"></i>Missão e valores</a>
                   </div>
                </div>
                <div class="grid-75 tablet-grid-70">
@@ -25,22 +25,22 @@
                            <div class="grid-50 tablet-grid-33">
                               <ul>
                                  <li>
-                                    <a title="Institucional" href="/institucional/amc.html">Institucional</a>
+                                    <a title="Institucional" href="https://amc.eng.br/institucional/amc.html">Institucional</a>
                                  </li>
 
                                  <li class="light">
-                                    <a href="/instucional/infraestrutura.html" title="Infraestrutura"
+                                    <a href="https://amc.eng.br/instucional/infraestrutura.html" title="Infraestrutura"
                                        ><i class="icon-angle-double-right"></i>Infraestrutura</a
                                     >
                                  </li>
                                  <li class="light">
-                                    <a href="/instucional/clientes.html" title="Clientes"><i class="icon-angle-double-right"></i>Clientes</a>
+                                    <a href="https://amc.eng.br/instucional/clientes.html" title="Clientes"><i class="icon-angle-double-right"></i>Clientes</a>
                                  </li>
                                  <li class="light">
-                                    <a href="/institucional/contato.html" title="Contato"><i class="icon-angle-double-right"></i>Contato</a>
+                                    <a href="https://amc.eng.br/institucional/contato.html" title="Contato"><i class="icon-angle-double-right"></i>Contato</a>
                                  </li>
                                  <li class="light">
-                                    <a href="/institucional/politica-de-privacidade.html" title="Política de Privacidade"
+                                    <a href="https://amc.eng.br/institucional/politica-de-privacidade.html" title="Política de Privacidade"
                                        ><i class="icon-angle-double-right"></i>Política de Privacidade</a
                                     >
                                  </li>
@@ -49,16 +49,16 @@
                            <div class="grid-50 tablet-grid-33">
                               <ul>
                                  <li>
-                                    <a href="/empreendimentos.html" title="Empreendimentos">Empreendimentos</a>
+                                    <a href="https://amc.eng.br/empreendimentos.html" title="Empreendimentos">Empreendimentos</a>
                                  </li>
                                  <li>
-                                    <a href="/depoimentos.html" title="Depoimentos">Depoimentos</a>
+                                    <a href="https://amc.eng.br/depoimentos.html" title="Depoimentos">Depoimentos</a>
                                  </li>
                                  <li>
-                                    <a href="/instucional/missao-visao-valores.html" title="Missão e valores">Missão e valores</a>
+                                    <a href="https://amc.eng.br/instucional/missao-visao-valores.html" title="Missão e valores">Missão e valores</a>
                                  </li>
                                  <li>
-                                    <a href="/faleconosco.html" title="Fale conosco">Fale conosco</a>
+                                    <a href="https://amc.eng.br/faleconosco.html" title="Fale conosco">Fale conosco</a>
                                  </li>
                               </ul>
                            </div>
@@ -71,7 +71,7 @@
                                  <a class="open-institucional" title="Institucional">Institucional <i class="icon-angle-down"></i></a>
                                  <ul class="sub-links sub">
                                     <li class="light">
-                                       <a href="/institucional/amc.html" title="AMC"><i class="icon-angle-double-right"></i>Quem Somos</a>
+                                       <a href="https://amc.eng.br/institucional/amc.html" title="AMC"><i class="icon-angle-double-right"></i>Quem Somos</a>
                                     </li>
                                     <li class="light">
                                        <a href="instucional/missao-visao-valores.html" title="Missão, Visão e Valores"
@@ -79,12 +79,12 @@
                                        >
                                     </li>
                                     <li class="light">
-                                       <a href="/instucional/infraestrutura.html" title="Infraestrutura"
+                                       <a href="https://amc.eng.br/instucional/infraestrutura.html" title="Infraestrutura"
                                           ><i class="icon-angle-double-right"></i>Infraestrutura</a
                                        >
                                     </li>
                                     <li class="light">
-                                       <a href="/institucional/parceria.html" title="Parceria"
+                                       <a href="https://amc.eng.br/institucional/parceria.html" title="Parceria"
                                           ><i class="icon-angle-double-right"></i>Parceria</a
                                        >
                                     </li>
@@ -92,27 +92,27 @@
                                        <a href="institucional/contato.html" title="Contato"><i class="icon-angle-double-right"></i>Contato</a>
                                     </li>
                                     <li class="light">
-                                       <a href="/institucional/politica-de-privacidade.html" title="Política de Privacidade"
+                                       <a href="https://amc.eng.br/institucional/politica-de-privacidade.html" title="Política de Privacidade"
                                           ><i class="icon-angle-double-right"></i>Política de Privacidade</a
                                        >
                                     </li>
                                  </ul>
                               </li>
                               <li>
-                                 <a href="/depoimentos.html" title="Depoimentos">Depoimentos</a>
+                                 <a href="https://amc.eng.br/depoimentos.html" title="Depoimentos">Depoimentos</a>
                               </li>
                               <li>
-                                 <a href="/empreendimentos.html" title="Empreendimentos">Empreendimentos</a>
+                                 <a href="https://amc.eng.br/empreendimentos.html" title="Empreendimentos">Empreendimentos</a>
                               </li>
                            </ul>
                         </div>
                         <div class="mobile-grid-50">
                            <ul>
                               <li>
-                                 <a href="/trabalhe-conosco.html" title="Trabalhe Conosco">Trabalhe Conosco</a>
+                                 <a href="https://amc.eng.br/trabalhe-conosco.html" title="Trabalhe Conosco">Trabalhe Conosco</a>
                               </li>
                               <li>
-                                 <a href="/faleconosco.html" title="Fale conosco">Fale conosco</a>
+                                 <a href="https://amc.eng.br/faleconosco.html" title="Fale conosco">Fale conosco</a>
                               </li>
                            </ul>
                         </div>
