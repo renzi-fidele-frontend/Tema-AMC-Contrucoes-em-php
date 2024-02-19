@@ -4,20 +4,20 @@
          <!--Sliders contendo o banner-->
          <ul class="slide-banners">
             <li>
-               <a target="_blank" href="https://amc.eng.br/empreendimentos/detalhes/solar-de-hamburgo.html" title="Solar de Hamburgo">
-                  <img src="<?php bloginfo('template_directory');?>/build/img/banners/banner1.jpg" alt="AMC Blog" />
+               <a target="_blank" href="https://amc.eng.br/empreendimentos/detalhes/portal-do-lago.html" title="Portal do lago">
+                  <img src="<?php bloginfo('template_directory');?>/build/img/banners/1.jpg" alt="AMC Blog" />
                </a>
             </li>
 
+            <li>
+               <a target="_blank" href="https://amc.eng.br/empreendimentos/detalhes/casa-blanca.html" title="Casa Blanca Residence">
+                  <img src="<?php bloginfo('template_directory');?>/build/img/banners/2.jpg" alt="AMC Blog" />
+               </a>
+            </li>
+            
             <li>
                <a target="_blank" href="https://amc.eng.br/empreendimentos/detalhes/ilha-di-capri.html" title="Ilha di Capri">
-                  <img src="<?php bloginfo('template_directory');?>/build/img/banners/banner2.jpg" alt="AMC Blog" />
-               </a>
-            </li>
-
-            <li>
-               <a target="_blank" href="https://amc.eng.br/empreendimentos/detalhes/solar-dos-alamos.html" title="Solar dos Álamos">
-                  <img src="<?php bloginfo('template_directory');?>/build/img/banners/banner3.jpg" alt="AMC Blog" />
+                  <img src="<?php bloginfo('template_directory');?>/build/img/banners/3.jpg" alt="AMC Blog" />
                </a>
             </li>
          </ul>
