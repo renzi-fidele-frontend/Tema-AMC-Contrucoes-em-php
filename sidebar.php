@@ -28,15 +28,15 @@
       <div class="box-more">
          <h3>Os mais <strong>lidos</strong></h3>
          <?php
-            while (have_posts()) : the_post();
+			  while (have_posts()) : the_post();
 
-            $pod = pods('post');
-            $pod->find(array('limit' => 5));
-            while ($pod->fetch()) {
-               echo '<div class="list-more">' . $pod->display('titulo_post_principal');
-                  echo '<a href="' . $pod->display('url') . '" class="more"><span> + </span> Ir para post</a>';
-               echo '</div>';
-            } endwhile;
+			  $pod = pods('post');
+			  $pod->find(array('limit' => 5, 'orderby' => 't.post_date DESC'));
+			  while ($pod->fetch()) {
+				   echo '<div class="list-more">' . $pod->display('post_title');
+					  echo '<a href="' . $pod->display('permalink') . '" class="more"><span> + </span> Ir para post</a>';
+				   echo '</div>';
+				} endwhile; 
          ?>
       </div>
    </div>

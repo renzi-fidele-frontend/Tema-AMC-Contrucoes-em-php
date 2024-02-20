@@ -13,7 +13,7 @@
 				$pod->find();
 				
 				while ($pod->fetch()) {				
-					if (get_the_title() == $pod->display('titulo_post_principal')) {
+					if (get_the_title() == $pod->display('post_title')) {
 						//  Header Single
 						echo '<div class="box-post single-post pg-single sizeFonte">';
 						echo '<div class="header-single">';
@@ -26,7 +26,7 @@
 						echo '</div>';  
 						echo '</div>';   
 						echo '<div class="grid-85 prefix-5 grid-parent tablet-grid-80 tablet-prefix-10 mobile-grid-60 mobile-prefix-10">';
-						echo '<span class="data meu-ape">' . get_the_date() . '</span>';
+						echo '<span class="data meu-ape">' . $pod->display('post_date') . '</span>';
 						echo '<span class="data meu-ape">Meu Apê</span>';
 						echo '</div>';
 						echo '</div>';
@@ -35,7 +35,7 @@
 
 						//  Titulo Single
 						echo '<div class="title-single">';
-						echo '<h1>' . $pod->display('titulo_post_principal') . '</h1>';
+						echo '<h1>' . $pod->display('post_title') . '</h1>';
 						echo '</div>';
 
 						//  Info Single
