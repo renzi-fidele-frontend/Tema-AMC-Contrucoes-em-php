@@ -88,6 +88,7 @@
 							   		
 						   } else {
 							   if ($count != 0) {
+								   consolar($pod->display('post_title'));
 								   echo '<div class="grid-50 tablet-grid-50">';
 									   echo '<div class="box-post">';
 										   echo '<div class="image-post meu-ape" style="background-image: url(' . $pod->display('imagem') . ')">';

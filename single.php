@@ -6,14 +6,24 @@
          <div class="grid-container">
             <div class="grid-70">        
 				<?php
+				function consolar($data) {
+					$output = $data;
+					if (is_array($output))
+						$output = implode(',', $output);
+					
+					echo "<script>console.log(' $output ');</script>";
+				}
 				while (have_posts()) : the_post();
 				$titulo = get_the_title();
                
 				$pod = pods('post');
-				$pod->find();
-				
-				while ($pod->fetch()) {				
-					if (get_the_title() == $pod->display('post_title')) {
+				$pod->reset();
+				$pod->find(array('limit' => -1));
+				consolar($titulo);
+				consolar("----------------------------");
+				while ($pod->fetch()) {		
+					consolar($pod->display('post_title'));
+					if ($titulo == $pod->display('post_title')) {
 						//  Header Single
 						echo '<div class="box-post single-post pg-single sizeFonte">';
 						echo '<div class="header-single">';
